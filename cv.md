@@ -1,4 +1,4 @@
-# RS-School CV
+# Curriculum Vitae
 ## Ivan Sukalo
 ![my-photo](src/img/profile1.JPG)
 
