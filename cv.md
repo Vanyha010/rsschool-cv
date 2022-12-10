@@ -1,6 +1,6 @@
 # RS-School CV
 ## Ivan Sukalo
-![my-photo](src/profile1.JPG)
+![my-photo](src/img/profile1.JPG)
 
  ### Contacts:
 * Telegram: @ktlpkn
