@@ -2,7 +2,7 @@
 ## Ivan Sukalo
 ![my-photo](src/img/profile1.JPG)
 
- ### Contacts:
+### Contacts:
 * Telegram: @ktlpkn
 * Discord: Ivan(Vanyha010)
 * GitHub: [GitHub profile](https://github.com/Vanyha010)
