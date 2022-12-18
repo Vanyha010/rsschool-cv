@@ -4,8 +4,104 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <title>CV - Ivan Sukalo</title>
 </head>
+
 <body>
+  <div class="wrapper">
+    <header>
+      <div class="container-header">
+        <nav>
+          <ul class="main-nav">
+            <li><a class="nav-link" href="#about">About me</a></li>
+            <li><a class="nav-link" href="#contacts">Contacts</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-main">
+        
+        <section class="section" id="intro">
+          <div class="photo">
+            <img src="assets/img/profile1.JPG" alt="My photo" class="photo">
+          </div>
+          <div class="info">
+            <h1 class="section-title">Ivan Sukalo</h1>
+            <p>Beginner Front-end developer</p>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <h2 class="section-title">About me</h2>
+          <p>I am 24 years old, I try to learn something new every day. Currently I work as a pediatrician at one of the Minsk child hospital. Also I study at Rolling Scopes school to learn Front-end development.</p>
+        </section>
+
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li>Minsk, Belarus</li>
+            <li>Telegram: <a href="https://t.me/Ktlpkn" title="telegram" class="contacts-link">@ktlpkn</a></li>
+            <li>Discord: <a href="https://discordapp.com/users/748525903507882095" title="discord" class="contacts-link">Ivan(Vanyha010)#2617</a></li>
+            <li>Email: <a href="mailto:vanyha010@gmail.com" title="email" class="contacts-link">vanyha010@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/Vanyha010" title="github" class="contacts-link">Vanyha010</a></li>
+          </ul>
+        </section>
+
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills-link">
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>Git and GitHub</li>
+          </ul>
+        </section>
+
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul>
+            <li>BSU Lyceum</li>
+            <li>Belarusian State Medical University</li>
+            <li>Rolling Scopes school - Javascript/Front-end course, stage 0 (in progress)</li>
+          </ul>
+        </section>
+
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Belarusian, Russian - Native</li>
+            <li>English - B2</li>
+            <li>Czech - A1</li>
+          </ul>
+        </section>
+
+      </div>
+    </main>
+
+    <footer>
+      <ul class="footer-list">
+        <li>
+          <a href="https://github.com/Vanyha010" title="github-link">
+            <img src="assets/icons/github-logo.png" alt="GitHub" height="40">
+          </a>
+        </li>
+        <li>2022</li>
+        <li>
+          <a href="https://rs.school/" title="RSSchool">
+            <img src="assets/icons/rs-logo.png" alt="RSSchool" height="40">
+          </a>
+        </li>
+      </ul>
+    </footer>
+      
+  </div>
 </body>
 </html>
