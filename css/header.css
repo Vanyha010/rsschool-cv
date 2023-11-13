@@ -2,18 +2,15 @@
   display: flex;
   justify-content: space-between;
 }
-
 .nav-menu__list-item {
   list-style: none;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
 }
-
 .nav-menu__list-link {
   text-decoration: none;
   color: #464849;
 }
-
 .nav-menu__list-link::after {
   display: block;
   position: relative;
@@ -25,7 +22,6 @@
   opacity: 0;
   transition: 0.3s ease-in-out;
 }
-
 .nav-menu__list-link:hover::after {
   width: 100%;
   opacity: 1;
