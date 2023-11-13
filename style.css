@@ -13,88 +13,9 @@
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-.main-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  list-style: none;
-  padding: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.nav-link:after {
-	display: block;
-	position: relative;
-	left: 0;
-	width: 25%;
-  opacity: 0;
-	height: 2px;
-	background-color: #ffffff;
-	content: "";
-	transition: width 0.5s ease-out;
-}
-
-.nav-link:hover:after {
-	width: 100%;
-  opacity: 1;
-}
-
-.photo {
-  border-radius: 20px;
-  max-width: 250px;
-}
-
-.photo:hover {
-  scale: 1.05;
-  transition: 0.3s;
-}
-
-.contacts-link:hover {
-  color:black;
-  transition: 0.3s;
-}
-
-.container-main {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media (orientation:landscape) {
-  .section {
-    width: 46%;
-    padding: 0 2%;
-  }
-}
-
-.section-title {
-  padding-left: 10px; /* Перепроверить, мб переделать */
-}
-
-.footer-list {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  width: 100%;
-  border-top: 2px solid #ffffff;
-  padding-top: 5px;
-}
-
-p {
-  padding: 0 10px;
-}
-
-
-
-=======
 .container {
   padding-top: 30px;
   padding-right: 120px;
   padding-left: 120px;
   padding-bottom: 30px;
 }
->>>>>>> 6803e927ba746052e2ac6123e71b386e4788da42
