@@ -1,22 +1,19 @@
-html {
-  scroll-behavior: smooth;
-}
+@import url('css/header.css');
+@import url('css/main.css');
+@import url('css/footer.css');
 
-body {
-  min-height: 100vh;
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #ffffff;
-  word-wrap: break-word;
-  background: linear-gradient(to top right, #662d8c, #ed1e79);
 }
 
+<<<<<<< HEAD
 .main-nav {
   display: flex;
   justify-content: space-around;
@@ -93,3 +90,11 @@ p {
 
 
 
+=======
+.container {
+  padding-top: 30px;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-bottom: 30px;
+}
+>>>>>>> 6803e927ba746052e2ac6123e71b386e4788da42

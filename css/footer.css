@@ -1,0 +1,22 @@
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #464849;
+  padding-bottom: 30px;
+  margin-top: -30px;
+}
+
+.footer__github-logo {
+  height: 40px;
+}
+
+.footer__school-logo {
+  height: 44px;
+}
+
+.footer__date {
+  font: 24px 'Lato', sans-serif;
+  color: #464849;
+  padding-left: 60px;
+}
