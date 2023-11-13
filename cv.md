@@ -19,6 +19,7 @@
 ### Education
 * 2015 - Graduated from BSU Lyceum in Minsk
 * 2021 - Graduated from Belarusian State Medical University
+
 ### Languages
 * Belarusian, Russian - Native
 * English - B1-B2
