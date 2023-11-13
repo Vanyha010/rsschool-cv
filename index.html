@@ -95,13 +95,13 @@
             <h2 class="heading code__heading">Code example</h2>
             <pre>
               <code class="code__text">
-function isPrime(num) { 
-  if (num &lt; 2) { 
+function isPrime(num) {
+  if (num &lt; 2) {
     return false;
   }
   if (num === 2) {
     return true;
-  }             
+  }
   const maximumDividor = Math.sqrt(num) + 1;
   for (let i = 2; i &lt; maximumDividor; i++) {
     if (num % i === 0) {
